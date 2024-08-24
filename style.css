@@ -1,0 +1,173 @@
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.main-body{
+    display: flex;
+    flex-direction: column;
+}
+
+.one-main{
+    width: 100vw;
+    height: 52vh;
+    display: flex;
+    flex-direction: column;
+    background-color:#7209b7;
+}
+
+.navBar{
+display: flex;
+justify-content: space-between;
+font-size: 20px;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.navimg{
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+    padding: 10px 16px;
+    margin-right: 15px; 
+}
+
+li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+h3{
+    color: #fff;
+    padding: 10px;
+    margin: 15px;
+    font-size: 50px;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.first-col{
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    width: 90px;
+    height: 40px;
+    border-radius: 5px;
+}
+.image{
+    width: 35%;
+    height: 300px;
+    margin-right:  20px;
+    display: flex;
+    padding-bottom: 25px;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;  
+}
+
+.image2{
+    width: 15%;
+    height: 90.5%;
+    background-color: #e0aaff;
+    position: absolute;
+    top: 110px;
+    bottom: 10px;
+    margin-left: 40px;
+    
+    
+}
+img{
+    width: 100%;
+    height: 100%;  
+    border-radius: 15px;
+}
+
+.two-main{
+    width: 100vw;
+    height: 50vh;
+    background-color: #fff;
+}
+
+.two-sub2{
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+
+#two-1{
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+h2, p{
+    color: #fff;
+    text-align: center; 
+    
+}
+
+.new{
+    color: #7209b7;
+}
+
+.three-main{
+    width: 100vw;
+    height: 50vh;
+    background-color:#e0aaff;
+   
+}
+
+
+.para3 {
+    color:#7209b7;
+    text-align: center;
+    padding: 20px;
+    font-style: italic;  
+}
+
+.fourth-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.four-sub1{
+    width: 80vw;
+    height: 20vh;
+    background-color: #7209b7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+.btn-4{
+    height: 50px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    font-size: 15px;
+    font-style: italic;
+}
+
